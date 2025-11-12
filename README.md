@@ -1,16 +1,18 @@
-# mobile_information_systems
+# Flutter project for the first lab exercise of course Mobile Information Systems.
 
-A new Flutter project.
+## Features
 
-## Getting Started
+## Home Screen (List of Exams)
+- Displayed a list of exams and their time slots.
+- Each exam has:
+  - **Course name**
+  - **Exam date**
+  - **Exam time**
+  - **Rooms** where the exam will be held
+-  **Card widget** is used for the design.
+- **badge** at the bottom of the screen which shows the **total number of exams**.
+- Exams are **sorted chronologically** by date.
+- Different colors used for passed and upcoming exams.
+- When an exam card is clicked details for that exam will be shown.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
